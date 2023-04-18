@@ -1,0 +1,276 @@
+.homeDiv1{
+    
+    width: 100%;
+    /* height: 800px; */
+    background: url(./mages2.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1.4;
+}
+.homeDiv1 .maniBg{
+    width: auto;
+    height: 60vh;
+    background-color: black;
+    opacity: 0;
+}
+
+.maincard{
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    padding: 80px 0;
+}
+.maincard img{
+    width: 350px;
+    padding-bottom: 50px;
+}
+.maincard h2{
+    text-shadow: 2px 2px 5px  black;
+    padding-bottom: 50px;
+    color: white    ;
+    font-size: 30px;
+}
+.maincard p{
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+
+    color: white    ;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+.maincard .mainBtn{
+    height: 65px;
+    width: 250px;
+    border-radius: 15px;
+    border: none;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-shadow: 0px 0px 30px  black;
+    color: black;
+    background-color: #cba285;
+    cursor: pointer;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.4);
+
+}
+.maincard .mainBtn:hover{
+    box-shadow: 0 10px 10px #97694a;
+}
+.homeDiv2 {
+    background-color: url(../Home/homePage.mp4);
+    width: 100%;
+    height: 91vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainVid{
+    top: 70px;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    position: absolute;
+
+}
+.homeDiv2Con{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.homeDiv2Con p{
+    color:rgb(224, 224, 224);
+    font-size: 15px;
+    letter-spacing: .5px;
+    font-weight: 600;
+    padding-bottom: 60px;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+
+}
+.homeDiv2Con img{
+    width: 650px;
+    padding-bottom: 50px;
+
+}
+.homeDiv2Con .valBtn{
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    border-radius: 4px;
+    transition: .6s;
+    font-size: 14px;
+    font-weight: 600;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+
+    
+}
+ .valBtn::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: #d52c2f;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    transition: all .5s;
+}
+.valBtn:hover:before{
+    width: 100%;
+}
+.homeDiv3{
+    position: relative;
+    background-color: #1e1e1f;
+    padding-bottom: 80px ;
+}
+.homeDiv3 h1{
+    color: white;
+    padding: 60px 100px;
+    font-size: 45px;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+
+
+}
+.homeDiv3 .EspImg{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.homeDiv3 .EspImg img{
+    position: relative;
+    width: 600px;
+    border-radius: 10px;
+    margin-right:50px ;
+    background-size: cover;
+    border: 3px solid #1e1e1f;
+    transition: .5s;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+.homeDiv3 .EspImg img:hover{
+    border: 3px solid  rgb(81, 78, 78);
+    cursor: pointer;
+}
+.homeDiv3 .EspImg .EspImgDiv1 {
+    position: relative;
+}
+.homeDiv3 .EspImg .EspImgDiv2 {
+    position: relative;
+}
+.homeDiv3 .EspImg .EspImgDiv1 .EspImgBtn1{
+    position: absolute;
+    left: 100px;
+    top: 190px;
+    background: transparent;
+    outline: none;
+    border: none;
+    width: 30px;
+    cursor: pointer;
+}
+.homeDiv3 .EspImg .EspImgBtn1 .fa-solid{
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2); */
+    color: aliceblue;
+    font-size: 30px;
+}
+.homeDiv3 .EspImg .EspImgDiv2 .EspImgBtn2{
+    position: absolute;
+    left: 100px;
+    top: 190px;
+    background: transparent;
+    outline: none;
+    border: none;
+    width: 30px;
+    cursor: pointer;
+
+}
+.homeDiv3 .EspImg .EspImgBtn2 .fa-solid{
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2); */
+    color: aliceblue;
+    font-size: 30px;
+}
+@media (max-width: 768px){
+    .homeDiv1 .maincard{
+        width: 50%;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        position: relative;
+    }
+    .maincard img{
+        width: 250px;
+    }
+    .maincard h2{
+        font-size: 18px;
+    }
+    .maincard p{
+        font-size: 14px;
+    }
+    .maincard  .mainBtn{
+        width: 150px;
+        font-size: 14px;
+        height: 40px;
+        border-radius: 10px;
+    }
+    .homeDiv3 .EspImg{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .homeDiv3  h1{
+        font-size: 25px;
+    }
+    .homeDiv3 .EspImg img{
+        width: 75%;
+        margin:10px
+    }
+    .homeDiv3 .EspImg i{
+        display: none;
+    }
+    .homeDiv3 .EspImg .EspImgDiv1{
+        text-align: center;
+    }
+    .homeDiv3 .EspImg .EspImgDiv2{
+        text-align: center;
+    }
+    .homeDiv2{
+        /* width: 100%; */
+        height: 80vh;
+    }
+    .homeDiv2 .mainVid{
+        /* width: 100%; */
+        
+    }
+    .homeDiv2Con{
+        width: 100%;
+
+    }
+    .homeDiv2Con img{
+        width: 250px;
+        padding-bottom: 20px;
+    }
+    .homeDiv2Con p{
+        font-size: 12px;
+        padding-bottom: 20px;
+    }
+    .homeDiv2Con .valBtn{
+        width: 150px;
+        height: 40px;
+    }
+   
+}

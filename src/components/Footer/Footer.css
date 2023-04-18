@@ -1,0 +1,101 @@
+:root{
+    --color1:#898684;
+    --color2:#252522;
+    --color3:#d13738;
+}
+.footer{
+background-color: var(--color2);
+padding: 40px;
+position: relative;
+z-index: 4545;
+text-align: center;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    display: flex;
+}
+.row ul{
+    display: flex;
+    
+    border-bottom: 1.5px solid var(--color1);
+}
+.row ul li{
+    color: var(--color1);
+    font-size: 14px;
+    padding: 0 50px 40px ;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.row ul li a{
+    font-size: 20px;
+    color: var(--color1);
+    /* padding: 40px; */
+    list-style: none;
+    transition: 0.4s;
+}
+.row ul li a i{
+    transition: .4s;
+}
+.row2{
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+}
+.row2 p{
+    color: var(--color1);
+
+}
+.footerLinks{
+    text-decoration: none;
+}
+.row  .goTop{
+    position: absolute;
+    font-size: 40px;
+    right: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    background-color: var(--color2);
+    transition: .4s;
+}
+/* ///////////////HOVER///////// */
+.row ul li a i:hover{
+    color:var(--color3)
+}
+.row ul li:hover{
+    color:var(--color3)
+}
+.row  .goTop:hover{
+    border-bottom: 2px solid var(--color1);
+    color: var(--color3);
+}
+@media (max-width: 768px){
+    .row{
+        justify-content: flex-start;
+    }
+    .row ul{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+
+   }
+    .row ul li{
+        padding: 0 20px 30px ;
+        font-size: 18PX;
+
+    }
+    .row ul li a{
+        font-size: 25PX;
+
+    }
+    .row2{
+        font-size: 15px;
+    }
+}
