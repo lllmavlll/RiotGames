@@ -29,7 +29,7 @@ const Navbar = (props)=> {
     <div className='header' style={navMain}>
         <div className='links'>
             <img className="logo" alt='' src={Logo}/>
-            <Link className='logo1'to={'/'}>
+            <Link className='logo1'to={'/RiotGames'}>
                 <img  alt='' src={logo1}/>
             </Link>
         </div>
