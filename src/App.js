@@ -26,7 +26,7 @@ function App (props) {
  {/* <ScrollToTop/> */}
  <Navbar/>
     <Routes>
-      <Route path='/' element={<Home/>}/>
+      <Route path='/RiotGames' element={<Home/>}/>
       <Route path='games' element={<Games/>}>
         <Route path='valorant' element={<Valorant/>}/>
         <Route path='leagueoflegends' element={<LeagueOfLegends/>}/>
