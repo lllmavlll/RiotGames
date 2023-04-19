@@ -27,17 +27,17 @@ function App (props) {
  <Navbar/>
     <Routes>
       <Route path='/' element={<Home/>}/>
-      <Route path='/games' element={<Games/>}>
+      <Route path='games' element={<Games/>}>
         <Route path='valorant' element={<Valorant/>}/>
         <Route path='leagueoflegends' element={<LeagueOfLegends/>}/>
         <Route path='leagueoflegendswildrift' element={<LolWr/>}/>
         <Route path='teamfighttactics' element={<Tet/>}/>
         <Route path='legendsofruneterra' element={<Lor/>}/>
       </Route>
-      <Route path='/news' element={<News/>}/>
-      <Route path='/aboutus' element={<About/>}/>
-      <Route path='/support' element={<Support/>}/>
-      <Route path='/signin' element={<SignIn/>}/>
+      <Route path='news' element={<News/>}/>
+      <Route path='aboutus' element={<About/>}/>
+      <Route path='support' element={<Support/>}/>
+      <Route path='signin' element={<SignIn/>}/>
     </Routes>
     <Footer/>
  </BrowserRouter>
