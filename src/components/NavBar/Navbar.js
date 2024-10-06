@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { useEffect, useState } from 'react'
+import { Link, useLocation } from 'react-router-dom'
 import Logo from '../Assets/png/logo_white.avif'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid'
 import MobileNavBar from './MobileNavBar'
@@ -7,8 +7,13 @@ import MobileNavBar from './MobileNavBar'
 
 
 
-const Navbar = (props) => {
+const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false)
+  const location = useLocation()
+
+  useEffect(() => {
+    setOpenMenu(false)
+  }, [location?.pathname])
 
   return (
     <>
@@ -19,7 +24,7 @@ const Navbar = (props) => {
           </Link>
 
         </div>
-        <div onClick={() => setOpenMenu(!openMenu)} className='navTrigger flex gap-4 lg:hidden text-gray-100 cursor-pointer mx-4'>
+        <div onClick={() => setOpenMenu(!openMenu)} className='navTrigger flex gap-4 lg:hidden font-bold active:scale-95 cursor-pointer mx-6'>
           {openMenu ?
             <XMarkIcon className='size-6 text-white' /> :
             <Bars3Icon className='size-6 text-white' />
@@ -33,9 +38,9 @@ const Navbar = (props) => {
         <div className=' items-center w-auto gap-28 hidden lg:flex '>
           <div className='list '>
             <ul>
-              <li><Link className='link' to={"games"}>Games</Link></li>
-              <li><Link className='link' to={"aboutus"}>about us</Link></li>
-              <li><Link className='link' to={"support"}>support</Link></li>
+              <li><Link className='link' to={"/games"}>Games</Link></li>
+              <li><Link className='link' to={"/aboutus"}>about us</Link></li>
+              <li><Link className='link' to={"/support"}>support</Link></li>
             </ul>
           </div>
           <div className="info ">
