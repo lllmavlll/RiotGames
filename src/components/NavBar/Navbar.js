@@ -24,10 +24,14 @@ const Navbar = () => {
           </Link>
 
         </div>
-        <div onClick={() => setOpenMenu(!openMenu)} className='navTrigger flex gap-4 lg:hidden font-bold active:scale-95 cursor-pointer mx-6'>
+        <div
+          onClick={() => setOpenMenu(!openMenu)}
+          className='navTrigger text-white flex gap-4 lg:hidden font-bold active:scale-95 cursor-pointer mx-6'
+          style={{color: 'white'}}
+        >
           {openMenu ?
-            <XMarkIcon className='size-6 text-white' /> :
-            <Bars3Icon className='size-6 text-white' />
+            <XMarkIcon className='size-6 ' /> :
+            <Bars3Icon className='size-6 ' />
           }
         </div>
         {
