@@ -1,140 +1,120 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
-}
-:root{
-   --redMain:#d13738;
-   --grey:#2b2a29;
-}
-.header{
-    position: sticky;
-    top: 0;
-    z-index: 464;
-}
-.links{
-    padding:20px 30px
-  }
-.logo{
-    /* background: url(../Assets/png/riot-games-logo.png) ; */
-    width: 80px;
-    padding-right: 20px;
-  }
- .logo1 img{
-    width: 25px;
-  }
-.list ul{
-display: flex;
-}
-.list ul li{
-
-    list-style: none;
-}
-.list ul li .link{
-    color:white;
-    padding:  20px;
-    text-align: center;
-    justify-content: center;
-    font-size: 12px;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 1px;
-    transition: .6s;
-    text-decoration: none;
-}
-.info{
-    display: flex;
-    padding-left: 600px;
-    justify-content: space-evenly;
-    align-items: center;
-    position: relative;
-    
-}
-.info .searchBox{
-    display: flex;
-    width: 200px;
-    height: 35px;
-    background-color: var(--grey);background-color: var(--grey);
-    text-align: center;
-    padding: auto;
-    margin-right: 10px;
-    border-radius: 30px;
-    position: relative;
+* {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.info .searchBox .inputbox{
-    position: relative;
-    background-color: transparent;
-    color: white;
-    outline: none;
-    border: none;
-    padding-left: 20px;
-    width: 140px;
-    text-transform: uppercase;
-    font-weight: 600;
+:root {
+  --redMain: #d13738;
+  --grey: #2b2a29;
 }
 
-.info .searchBox .inputbox::placeholder{
-    font-weight: 600;
-    letter-spacing: 1px;
-    font-size: 12px;
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 464;
 }
-.info .searchBox #btn{
-    background: transparent;
-    color: white;
-    border: none;
-    font-size: 18px;
-    left: 50px;
-    cursor: pointer;
-    transition: 0.7s;
+
+.links {
+  padding: 20px 30px
 }
-.btn{
-    height: 35px;
-    width: 100px;
-    border-radius: 30px;
-    text-transform: uppercase;
-    font-weight: 600;
-    background-color:var(--redMain);
-    border: none;
-    font-size: 12px;
-    letter-spacing: 1px;
-    cursor: pointer;
-    transition: .6s;
-    color: black;
+
+.logo {
+  /* background: url(../Assets/png/riot-games-logo.png) ; */
+  width: 80px;
+  padding-right: 20px;
+}
+
+.logo1 img {
+  width: 25px;
+}
+.navTrigger{
+  color: white !important;
+}
+
+.list ul {
+  display: flex;
+}
+
+.list ul li {
+  list-style: none;
+}
+
+.list ul li .link {
+  color: white;
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: .6s;
+  text-decoration: none;
+}
+
+.info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  gap: 16px;
+
+}
+
+.info .searchBox {
+  display: flex;
+  width: 160px;
+  height: 35px;
+  background-color: var(--grey);
+  text-align: center;
+  padding: auto;
+  margin-right: 10px;
+  border-radius: 30px;
+  position: relative;
+}
+
+.info .searchBox .inputbox {
+  position: relative;
+  background-color: transparent;
+  color: white;
+  outline: none;
+  border: none;
+  padding-left: 20px;
+  width: 120px;
+  font-size: small;
+}
+
+.info .searchBox .inputbox::placeholder {
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+
+.btn {
+  height: 35px;
+  width: 80px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: var(--redMain);
+  border: none;
+  font-size: 12px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: .6s;
+  color: black;
 }
 
 /* //////// HOVER ///////// */
-.list ul li .link:hover{
-    color: var(--redMain);  
-    cursor: pointer;
+.list ul li .link:hover {
+  color: var(--redMain);
+  cursor: pointer;
 }
-.btn:hover{
-    background-color: white;
-    color: var(--redMain);
-}.info .searchBox #btn:hover{color: aliceblue;}
 
-/* ///////home ////////// */
-@media (max-width: 768px) {
-   
-   .header{
-    display: flex;
-    flex-direction: column;
-   }
-    .links{
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        padding: 15px 0;
-    }
-    .list{
-        padding-bottom: 10px;
-    }
-   
-    .info{
-        padding-left: 0px;
-        margin-bottom:10px ;
-        width: 85%;
-    }
-    .info .searchBox{
-        /* width: 80% */
-        
-    }
+.btn:hover {
+  background-color: white;
+  color: var(--redMain);
+}
+
+.info .searchBox #btn:hover {
+  color: aliceblue;
 }
