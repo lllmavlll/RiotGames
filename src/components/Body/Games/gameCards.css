@@ -1,189 +1,189 @@
 .valoBan {
-    background: url(./imges/gameVal.jpg);
-    object-fit: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-}
-.lolBan{
-    background: url(./imges/lolbg.jpeg);
-    object-fit: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 110vh;
-    background-size: cover;
-
-}
-.lolwrBan{
-    background: url(./imges/lolwrbg.png);
-    object-fit: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    
-}
-.lorBan{
-    background: url(./imges/lorBg.png);
-    object-fit: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    position: relative;
-    
-}
-.lorBan img{
-    margin-top: 10%;
-    width: 30%;
-}
-.tetBan{
-    background: url(./imges/tetBg.jpg);
-    object-fit: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-
-}
-.tetBan button{
-    /* text-align: center; */
-    margin-top: 300px;
-    margin-left: 80px;
-}
-.lolwrBan button{
-    margin-top: 100px;
+  background: url(./imges/gameVal.jpg);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
 }
 
- .valBanInputs {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding:  300px 100px;
-}
- .valBanInputs p{
-    font-size: 20px;
-    font-weight: 600;
-    letter-spacing: 5px;
-    color: white;
-    padding-bottom: 30px;
-    text-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
-}
- .valBanInputs h1{
-    color: white;
-    text-transform: uppercase;
-    font-size: 100px;
-    padding-bottom: 30px;
-    font-weight: 600;
-    text-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
-}
-.lolBan .valBanInputs h1{
-    color: #a2fdff;
-    text-transform:none;
-    font-size: 70px;
-    padding-bottom: 30px;
-    font-weight: 600;
-    text-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
-}
- .valBanInputs button{
-    width: 200px;
-    height: 50px;
-    cursor: pointer;
-    border: 1px solid #d13738;
-    background: #d13738;
-    color: white;
-    border-radius: 4px;
-    transition: .6s;
-    font-size: 14px;
-    margin-right: 30px;
-    font-weight: 600;
-    overflow: hidden;
-    position: relative;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
-    text-transform: uppercase;
-    letter-spacing: .5px;
-}
-
- .valBanInputs button:hover{
-    background-color: #e3dad1;
-    color: #d13738;
-}
-.lorBan .valBanBtn{
-    
+.lolBan {
+  background: url(./imges/lolbg.jpeg);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 110vh;
+  background-size: cover;
 
 }
+
+.lolwrBan {
+  background: url(./imges/lolwrbg.png);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+
+}
+
+.lorBan {
+  background: url(./imges/lorBg.png);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+
+}
+
+.lorBan img {
+  margin-top: 10%;
+  width: 30%;
+}
+
+.tetBan {
+  background: url(./imges/tetBg.jpg);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+
+}
+
+.tetBan button {
+  /* text-align: center; */
+  margin-top: 300px;
+  margin-left: 80px;
+}
+
+.lolwrBan button {
+  margin-top: 100px;
+}
+
+
+.valBanInputs p {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  color: white;
+  padding-bottom: 30px;
+  text-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.valBanInputs h1 {
+
+  font-weight: 600;
+  text-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.lolBan .valBanInputs h1 {
+  color: #a2fdff;
+  text-transform: none;
+  font-size: 70px;
+  padding-bottom: 30px;
+  font-weight: 600;
+  text-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.valBanInputs button {
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  border: 1px solid #d13738;
+  background: #d13738;
+  color: white;
+  border-radius: 4px;
+  transition: .6s;
+  font-size: 14px;
+  margin-right: 30px;
+  font-weight: 600;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+  text-transform: uppercase;
+  letter-spacing: .5px;
+}
+
+.valBanInputs button:hover {
+  background-color: #e3dad1;
+  color: #d13738;
+}
+
 .valoBan2 {
-    background:url(./imges/valbg.jpeg);
-    background-position:center ;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background: url(./imges/valbg.jpeg);
+  background-position: center;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.valoBan2Div1{
-    padding: 100px;
-    gap: 100px;
-    display: flex;
-    justify-content: center;
-}
-.valoBan2Div1 .gplay{
-    width: 450px;
-    padding-right: 50px;
-}
-.valoBan2Div1 .gplay h1{
-color: #d13738;
-padding-left: 20px;
-margin-bottom: 20px;
-text-transform: uppercase;
-font-weight: 600;
+
+
+
+
+.valoBan2Div1 .gplay h1 {
+  color: #d13738;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
 
 }
-.valoBan2Div1 .gplay p{
-    font-size: 18px;
+
+.valoBan2Div1 .gplay p {
+  font-size: 18px;
 }
-.valoBan2Div1 .gplay1{
-    width: 600px;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
-    border-radius: 5px;
+
+.valoBan2Div1 .gplay1 {
+  width: 600px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
 
 }
-.valoBan2Div2{
-    display: flex;
-    flex-direction: column;
-    padding:  35px 50px;
-    align-items: center;
-    position: relative;
+
+.valoBan2Div2 {
+  display: flex;
+  flex-direction: column;
+  padding: 35px 50px;
+  align-items: center;
+  position: relative;
 }
-.valoBan2Div2 p{
-    font-size: 24px;
-    text-transform: uppercase;
-    font-weight: 600;
-    /* color: #d13738; */
-    padding-bottom: 20px;
+
+.valoBan2Div2 p {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+  /* color: #d13738; */
+  padding-bottom: 20px;
 }
-.valoBan2Div2 .gameIbg{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    border-radius: 30px;
-    width: 20%;
-    background-color: rgba(0, 0, 0, 0.4);
+
+.valoBan2Div2 .gameIbg {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+  width: 20%;
+  background-color: rgba(0, 0, 0, 0.4);
 }
-.valoBan2Div2 .gameIbg .fa-brands{
-    font-size: 30px;
-    padding: 8px;
-    margin-left: 20px;
-    
+
+.valoBan2Div2 .gameIbg .fa-brands {
+  font-size: 30px;
+  padding: 8px;
+  margin-left: 20px;
+
 }
-.valoBan2Div2 .gameIbg .fa-solid{
-    font-size: 30px;
-    padding: 8px;
-    margin-left: 20px;
-    
+
+.valoBan2Div2 .gameIbg .fa-solid {
+  font-size: 30px;
+  padding: 8px;
+  margin-left: 20px;
+
 }
