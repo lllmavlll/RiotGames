@@ -28,7 +28,7 @@ Upon successfully running the React app, you can utilize the following features:
 * Sign-in Page: Sign-in page to sign in to the website.
 
 ### To view the page live, click on the link below.
-https://lllmavlll.github.io/RiotGames/
+[RiotGames](https://riotgames-lllmavlll.netlify.app/)
 
 once you landed on the Home page click on the riot games logo
 
