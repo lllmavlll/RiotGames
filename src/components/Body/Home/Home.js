@@ -31,9 +31,9 @@ const Home = () => {
 
   return (
     <>
-      <div className='h-screen lg:h-[91vh] relative flex items-center object-cover justify-center bg-black/40'>
+      <div className='h-screen lg:h-[95vh] relative flex items-center object-cover justify-center bg-black/40'>
         <video
-          className='absolute -z-10 object-cover mainVid w-full h-full'
+          className='absolute -z-10 object-cover mainVid w-full h-screen'
           autoPlay
           loop
           muted
